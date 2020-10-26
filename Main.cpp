@@ -1,15 +1,15 @@
 #include <iostream>
 #include <time.h>
 #include <chrono>
-#include "Bubble.h"
-#include "Selection.h"
-#include "Insertion.h"
-#include "Shell.h"
-#include "Merge.h"
-#include "Heap.h"
-#include "Quick.h"
-#include "Counting.h"
-#include "Radix.h"
+#include "Bubble.hpp"
+#include "Selection.hpp"
+#include "Insertion.hpp"
+#include "Shell.hpp"
+#include "Merge.hpp"
+#include "Heap.hpp"
+#include "Quick.hpp"
+#include "Counting.hpp"
+#include "Radix.hpp"
 using namespace std;
 
 
@@ -37,7 +37,7 @@ void validate(int* arr, int size){
 			break;
 		}
 	}
-	cout << "\n" << flag;
+	cout << "\n" << boolalpha << flag;
 }
 
 
