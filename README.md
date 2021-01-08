@@ -5,7 +5,7 @@ A repository of sorting algorithms written in C++
 
 ## Getting Started
 * Clone this repository
-* Build ```Main.cpp``` (g++ ```Main.cpp``` -o ```Main.exe```)
+* Compile ```Main.cpp``` (g++ ```Main.cpp``` -o ```Main.exe```)
 * Run ```Main.exe```
 
 <br>
