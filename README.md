@@ -1,5 +1,5 @@
 # Sorting-Algorithms
-A repository of sorting algorithms written in C++
+A repository of sorting algorithms written in C++.
 
 <br>
 
