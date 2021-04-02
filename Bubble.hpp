@@ -2,13 +2,14 @@ void swap(int*, int, int);
 
 
 void bubbleSort(int* arr, int size){
-	bool done = false;
-	for (int i = 0; i < size; i++){
+	bool done;
+
+	for (int i = 0; i < size-1; i++){
 		done = true;
-		for (int j = i; j < size; j++){
-			if (arr[i] > arr[j]){
+		for (int j = size-1; j > i; j--){
+			if (arr[j] < arr[j-1]){
 				done = false;
-				swap(arr, i, j);
+				swap(arr, j, j-1);
 			}
 		}
 		if (done){
